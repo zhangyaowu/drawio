@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T08:20:38.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6NwScaRC879dWfcpOiUy" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-29T08:33:12.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="AXMlPjA44vLDKIbxnB9H" version="14.7.1" type="github">
   <diagram id="shA5ZlWJ4X3sX_pzC4o5" name="第 1 页">
     <mxGraphModel dx="1070" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3wTxvQvhCQjvtQIVqkXk-1" value="DataFactory" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="120" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3wTxvQvhCQjvtQIVqkXk-2" value="Dolas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="414" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="3wTxvQvhCQjvtQIVqkXk-2" value="Dolas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="514" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3wTxvQvhCQjvtQIVqkXk-3" value="Meta1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="3wTxvQvhCQjvtQIVqkXk-3" value="Meta1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3wTxvQvhCQjvtQIVqkXk-4" value="" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3wTxvQvhCQjvtQIVqkXk-1" target="3wTxvQvhCQjvtQIVqkXk-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="430" as="sourcePoint" />
-            <mxPoint x="440" y="380" as="targetPoint" />
+            <mxPoint x="490" y="490" as="sourcePoint" />
+            <mxPoint x="540" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3wTxvQvhCQjvtQIVqkXk-11" value="通过http header的token&lt;br&gt;属性传递租户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3wTxvQvhCQjvtQIVqkXk-4">
@@ -26,8 +26,8 @@
         </mxCell>
         <mxCell id="3wTxvQvhCQjvtQIVqkXk-5" value="" style="endArrow=classic;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3wTxvQvhCQjvtQIVqkXk-3" target="3wTxvQvhCQjvtQIVqkXk-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="360" as="sourcePoint" />
-            <mxPoint x="440" y="380" as="targetPoint" />
+            <mxPoint x="350" y="420" as="sourcePoint" />
+            <mxPoint x="540" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3wTxvQvhCQjvtQIVqkXk-12" value="通过http header的token&lt;br&gt;属性传递租户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3wTxvQvhCQjvtQIVqkXk-5">
@@ -37,19 +37,19 @@
         </mxCell>
         <mxCell id="3wTxvQvhCQjvtQIVqkXk-6" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="3wTxvQvhCQjvtQIVqkXk-2" target="3wTxvQvhCQjvtQIVqkXk-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="430" as="sourcePoint" />
-            <mxPoint x="440" y="380" as="targetPoint" />
+            <mxPoint x="490" y="490" as="sourcePoint" />
+            <mxPoint x="540" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3wTxvQvhCQjvtQIVqkXk-13" value="Dolas作为接口消费者，&lt;br&gt;需在请求中提供租户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3wTxvQvhCQjvtQIVqkXk-6">
+        <mxCell id="3wTxvQvhCQjvtQIVqkXk-13" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;Dolas作为接口消费者，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;1、Dolas在请求中提供租户信息&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;2、MetaOne对Dolas的请求特殊处理，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;不强求携带租户信息&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3wTxvQvhCQjvtQIVqkXk-6">
           <mxGeometry x="-0.2295" y="-3" relative="1" as="geometry">
-            <mxPoint x="-7" y="20" as="offset" />
+            <mxPoint x="5" y="24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3wTxvQvhCQjvtQIVqkXk-7" value="" style="endArrow=classic;html=1;exitX=1.017;exitY=0.65;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="3wTxvQvhCQjvtQIVqkXk-1" target="3wTxvQvhCQjvtQIVqkXk-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="430" as="sourcePoint" />
-            <mxPoint x="440" y="380" as="targetPoint" />
+            <mxPoint x="490" y="490" as="sourcePoint" />
+            <mxPoint x="540" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3wTxvQvhCQjvtQIVqkXk-10" value="Dolas作为接口提供方，&lt;br&gt;忽略请求头中的租户属性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3wTxvQvhCQjvtQIVqkXk-7">
@@ -57,8 +57,31 @@
             <mxPoint x="17" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3wTxvQvhCQjvtQIVqkXk-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;设计态多租830构建范围：&lt;br style=&quot;font-size: 10px&quot;&gt;DataFactory、MetaOne、RSCS提供&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="590" y="190" width="160" height="120" as="geometry" />
+        <mxCell id="3wTxvQvhCQjvtQIVqkXk-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;设计态多租830构建策略：&lt;br style=&quot;font-size: 10px&quot;&gt;DataFactory、MetaOne、RSCS提供完善租户隔离能力；&lt;br&gt;Dolas在830按需构建最小集，确保设计态应用开发、调测、编译、打包等功能能贯通；&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3wTxvQvhCQjvtQIVqkXk-33" value="MetaOne tenantA" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="418" y="450" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3wTxvQvhCQjvtQIVqkXk-34" value="MetaOne tenantB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="634" y="450" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3wTxvQvhCQjvtQIVqkXk-35" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3wTxvQvhCQjvtQIVqkXk-2" target="3wTxvQvhCQjvtQIVqkXk-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="390" as="sourcePoint" />
+            <mxPoint x="430" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3wTxvQvhCQjvtQIVqkXk-36" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3wTxvQvhCQjvtQIVqkXk-2" target="3wTxvQvhCQjvtQIVqkXk-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="390" as="sourcePoint" />
+            <mxPoint x="430" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3wTxvQvhCQjvtQIVqkXk-37" value="&lt;div style=&quot;text-align: left&quot;&gt;1、Dolas要能正确摸到MetaOne对应租户的库&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;2、Dolas不直接摸MetaOne的库&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3wTxvQvhCQjvtQIVqkXk-36">
+          <mxGeometry x="0.2061" y="2" relative="1" as="geometry">
+            <mxPoint x="49" y="5" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
